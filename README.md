@@ -20,19 +20,25 @@ We have a reosurce called `DemoResource` and it has 1 exported function named `D
 
 these are the cases we can use:
 ```lua
-loadstring(exports["MTAImports"]:import("DemoResource"))
+loadstring(exports["MTAImports"]:import("DemoResource"))()
 -- Usage:
 DoSomething()
 ```
 
 ```lua
-loadstring(exports["MTAImports"]:import("DemoResource", true))
+loadstring(exports["MTAImports"]:import("DemoResource", true))()
 -- Usage:
 DemoResource.DoSomething()
 ```
 
 ```lua
-loadstring(exports["MTAImports"]:import("DemoResource", true, "MySpace"))
+loadstring(exports["MTAImports"]:import("DemoResource", true, "MySpace"))()
 -- Usage:
 MySpace.DoSomething()
 ```
+
+## Note:
+This resource is just an edited version of https://github.com/rifleh700/import by rifleh700 and it's use case is for exporting and using it, not including the file itself.
+
+
+Contributions of any size is accepted
