@@ -1,0 +1,5 @@
+<meta>
+    <info author="_ERAGON_" version="1.0" name="Import" description="Utility to provide require keyword functionallity for mta sa" type="script" />
+
+    <script src="g_imports.lua" type="shared" />
+</meta>
